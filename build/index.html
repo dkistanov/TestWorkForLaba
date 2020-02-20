@@ -11,6 +11,137 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
     <body>
       <div class="wrapper">
+        <div class="sidebar">
+          <div class="sidebar-wrp">
+            <ul class="sidebar__navigation">
+              <li class="sidebar__navigation-item"><span class="sidebar__category">Верхняя одежда</span>
+                <ul class="sidebar__subcategory">
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Куртки</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Куртки1</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Куртки2</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Куртки3</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Куртки4</a></li>
+                </ul>
+              </li>
+              <li class="sidebar__navigation-item"><span class="sidebar__category">Нижняя одежда</span>
+                <ul class="sidebar__subcategory">
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Шорты</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Шорты1</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Шорты2</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Шорты3</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Шорты4</a></li>
+                </ul>
+              </li>
+              <li class="sidebar__navigation-item"><span class="sidebar__category">Свитера</span>
+                <ul class="sidebar__subcategory">
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Свитер</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Свитер1</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Свитер2</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Свитер3</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Свитер4</a></li>
+                </ul>
+              </li>
+              <li class="sidebar__navigation-item"><span class="sidebar__category">Штаны</span>
+                <ul class="sidebar__subcategory">
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Штаны</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Штаны1</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Штаны2</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Штаны3</a></li>
+                  <li class="sidebar__subcategory-item"><a class="sidebar__subcategory-link" href="#">Штаны4</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="main">
+          <section class="catalog">
+            <div class="container">
+              <h1 class="catalog__title">Товары</h1>
+              <ul class="catalog__list scrollbar-inner">
+                <li class="catalog__item">  
+                  <div class="catalog__img-wrp"><img src="app/img/content/img1.jpg" alt="#"></div><span class="catalog__name">Это товар 1</span><span class="catalog__price">1000Р</span>
+                  <button class="catalog__buy button">Купить</button>
+                </li>
+                <li class="catalog__item">  
+                  <div class="catalog__img-wrp"><img src="app/img/content/img2.jpg" alt="#"></div><span class="catalog__name">Это товар 2</span><span class="catalog__price">1000Р</span>
+                  <button class="catalog__buy button">Купить</button>
+                </li>
+                <li class="catalog__item">  
+                  <div class="catalog__img-wrp"><img src="app/img/content/img1.jpg" alt="#"></div><span class="catalog__name">Это товар 3</span><span class="catalog__price">1000Р</span>
+                  <button class="catalog__buy button">Купить</button>
+                </li>
+                <li class="catalog__item">  
+                  <div class="catalog__img-wrp"><img src="app/img/content/img2.jpg" alt="#"></div><span class="catalog__name">Это товар 4</span><span class="catalog__price">1000Р</span>
+                  <button class="catalog__buy button">Купить</button>
+                </li>
+                <li class="catalog__item">  
+                  <div class="catalog__img-wrp"><img src="app/img/content/img1.jpg" alt="#"></div><span class="catalog__name">Это товар 5</span><span class="catalog__price">1000Р</span>
+                  <button class="catalog__buy button">Купить</button>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <div class="feedback">
+            <div class="feedback-wrp">
+              <div class="feedback__open">
+                <div class="feedback__open-text">Нужна помощь?</div>
+              </div>
+              <div class="feedback__content">
+                <div class="feedback__close">
+                  <svg class="icon icon-stop ">
+                    <use xlink:href="app/img/svg/symbol/sprite.svg#stop"></use>
+                  </svg>
+                </div>
+                <h2 class="feedback__title">Оставьте свой телефон и мы вам перезвоним!</h2>
+                <form class="feedback__form" action="#">
+                  <input class="feedback__name" type="text" placeholder="Ваше имя">
+                  <input class="feedback__tel" type="text" placeholder="Ваш телефон">
+                  <button class="feedback__sent button" type="submit">Отправить</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="container">
+            <div class="footer-wrp">
+              <div class="footer__initial">
+                <div class="footer__name">Shop-wear</div>
+                <div class="footer__tel">8939393939</div>
+              </div>
+              <ul class="footer__socials">
+                <li class="footer__item">
+                  <div class="footer__icon">
+                    <svg class="icon icon-vk ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#vk"></use>
+                    </svg>
+                  </div>
+                </li>
+                <li class="footer__item">
+                  <div class="footer__icon">
+                    <svg class="icon icon-inst ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#inst"></use>
+                    </svg>
+                  </div>
+                </li>
+                <li class="footer__item">
+                  <div class="footer__icon">
+                    <svg class="icon icon-tel ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#tel"></use>
+                    </svg>
+                  </div>
+                </li>
+                <li class="footer__item">
+                  <div class="footer__icon">
+                    <svg class="icon icon-f ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#f"></use>
+                    </svg>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
       </div>
       <script src="app/js/libs.min.js"></script>
       <script src="app/js/app.js"></script>

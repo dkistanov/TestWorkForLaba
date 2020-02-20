@@ -1,0 +1,62 @@
+.sidebar__navigation 
+    display flex
+    flex-direction: column
+    align-items: flex-start
+    position relative
+    border-top: 1px solid #444444
+
+.sidebar-wrp
+    position fixed
+    left 0
+    top: 50%
+    transform: translateY(-50%)
+    z-index 11
+
+.sidebar__navigation-item 
+    display flex
+    background-color: #eee
+    cursor pointer
+
+.sidebar__category 
+    width: 150px
+    font-size: 18px
+    padding-bottom 10px
+    padding-top 10px
+    padding-left 10px
+    border-bottom: 1px solid #444444
+    border-right: 1px solid #444
+    &:hover + .sidebar__subcategory
+        opacity: 1
+        left 150px
+        @media (max-width: 500px)
+            left 60px
+    @media (max-width: 500px)
+        width 60px
+        font-size: 14px
+
+.sidebar__subcategory
+    position absolute
+    left -1000px
+    top: 0
+    opacity: 0
+    display flex
+    flex-wrap: wrap
+    width 300px
+    &:hover
+        opacity: 1
+        left 150px
+        @media (max-width: 500px)
+            left 60px
+    @media (max-width: 500px)
+        width 150px
+
+.sidebar__subcategory-item
+    font-size: 18px
+    padding: 10px
+    width 33%
+    text-align: center
+    background-color: #eee
+    border-bottom: 1px solid #444444
+    @media (max-width: 500px)
+        font-size 12px
+

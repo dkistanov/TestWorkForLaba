@@ -1,0 +1,61 @@
+.catalog .container
+    @media (max-width: 500px)
+        align-items: flex-end
+        display flex
+        flex-direction: column
+.catalog__title
+    font-size 38px
+    @media (max-width: 500px)
+        font-size: 30px
+        text-align: center
+        align-self: center
+.catalog__list
+    display flex
+    flex-wrap: nowrap
+    width 100%
+    @media (max-width: 500px)
+        font-size: 14px
+        flex-direction: column
+        height 600px
+        width 230px
+        margin-bottom 40px
+
+.catalog__item
+    width 32%
+    flex-shrink: 0
+    margin-right 20px
+    margin-bottom 10px
+    display flex
+    flex-direction: column
+    align-items: center
+    @media (max-width: 500px)
+        margin-right 14px
+        width 90%
+
+.catalog__img-wrp
+    width 300px
+    margin-bottom 20px
+    @media (max-width: 500px)
+        width 140px
+        margin-bottom 10px
+
+.catalog__name
+    font-size 18px
+    margin-bottom 5px
+    align-self: flex-start
+    @media (max-width: 500px)
+        font-size: 14px
+
+
+.catalog__price
+    font-size 16px
+    margin-bottom 10px
+    align-self: flex-start
+    @media (max-width: 500px)
+        font-size: 13px
+
+.catalog__buy.button
+    align-self: flex-end
+    border-top-right-radius: 0px
+    border-bottom-right-radius: 0px
+    margin-bottom 10px

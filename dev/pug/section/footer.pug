@@ -1,0 +1,11 @@
+footer.footer
+    .container
+        .footer-wrp
+            .footer__initial
+                .footer__name= content.footer.name
+                .footer__tel= content.footer.tel
+            ul.footer__socials
+                each item in content.footer.social
+                    li.footer__item
+                        .footer__icon
+                            +icon(item["src"])

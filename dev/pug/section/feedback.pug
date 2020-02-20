@@ -1,0 +1,12 @@
+.feedback
+    .feedback-wrp
+        .feedback__open
+            .feedback__open-text Нужна помощь?
+        .feedback__content
+            .feedback__close
+                    +icon('stop')
+            h2.feedback__title= content.feedback.text
+            form.feedback__form(action="#")
+                input.feedback__name(type="text" placeholder="Ваше имя")
+                input.feedback__tel(type="text" placeholder="Ваш телефон")
+                button.feedback__sent.button(type="submit") Отправить

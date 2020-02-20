@@ -1,0 +1,11 @@
+section.catalog
+    .container
+        h1.catalog__title Товары
+        ul.catalog__list.scrollbar-inner
+            each item in content.catalog.list
+                li.catalog__item   
+                    .catalog__img-wrp
+                        img(src=item["url"], alt="#")
+                    span.catalog__name= item["name"]
+                    span.catalog__price= item["price"]
+                    button.catalog__buy.button Купить

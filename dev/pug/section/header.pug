@@ -1,0 +1,25 @@
+
+.sidebar
+    .sidebar-wrp
+        ul.sidebar__navigation
+            each item in content.sidebar.nav
+                li.sidebar__navigation-item
+                    span.sidebar__category= item["text"]
+                    ul.sidebar__subcategory
+                        if content.sidebar.nav[0]==item
+                            each sub in content.sidebar.category.outerwear
+                                li.sidebar__subcategory-item
+                                    a.sidebar__subcategory-link(href="#")= sub["text"]
+                        else if content.sidebar.nav[1]==item
+                            each sub in content.sidebar.category.underwear
+                                li.sidebar__subcategory-item
+                                    a.sidebar__subcategory-link(href="#")= sub["text"]
+                        else if content.sidebar.nav[2]==item
+                            each sub in content.sidebar.category.sweaters
+                                li.sidebar__subcategory-item
+                                    a.sidebar__subcategory-link(href="#")= sub["text"]
+                        else 
+                            each sub in content.sidebar.category.pants
+                                li.sidebar__subcategory-item
+                                    a.sidebar__subcategory-link(href="#")= sub["text"]
+

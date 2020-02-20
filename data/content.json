@@ -1,6 +1,138 @@
 {
-  "content": {
-    " " : " ",
-    " " : " "
+  "catalog": {
+    "list": [
+      {
+        "url": "app/img/content/img1.jpg",
+        "name": "Это товар 1",
+        "price": "1000Р"
+      },
+      {
+        "url": "app/img/content/img2.jpg",
+        "name": "Это товар 2",
+        "price": "1000Р"
+      },
+      {
+        "url": "app/img/content/img1.jpg",
+        "name": "Это товар 3",
+        "price": "1000Р"
+      },
+      {
+        "url": "app/img/content/img2.jpg",
+        "name": "Это товар 4",
+        "price": "1000Р"
+      },
+      {
+        "url": "app/img/content/img1.jpg",
+        "name": "Это товар 5",
+        "price": "1000Р"
+      }
+    ]
+  },
+  "sidebar": {
+    "nav": [
+      {
+        "text": "Верхняя одежда"
+      },
+      {
+        "text": "Нижняя одежда"
+      },
+      {
+        "text": "Свитера"
+      },
+      {
+        "text": "Штаны"
+      }
+    ], 
+    "category": {
+      "outerwear": [
+        {
+          "text":"Куртки"
+        },
+        {
+          "text":"Куртки1"
+        },
+        {
+          "text":"Куртки2"
+        },
+        {
+          "text":"Куртки3"
+        },
+        {
+          "text":"Куртки4"
+        }
+      ],
+      "underwear": [
+        {
+          "text":"Шорты"
+        },
+        {
+          "text":"Шорты1"
+        },
+        {
+          "text":"Шорты2"
+        },
+        {
+          "text":"Шорты3"
+        },
+        {
+          "text":"Шорты4"
+        }
+      ],
+      "sweaters": [
+        {
+          "text":"Свитер"
+        },
+        {
+          "text":"Свитер1"
+        },
+        {
+          "text":"Свитер2"
+        },
+        {
+          "text":"Свитер3"
+        },
+        {
+          "text":"Свитер4"
+        }
+      ],
+      "pants": [
+        {
+          "text":"Штаны"
+        },
+        {
+          "text":"Штаны1"
+        },
+        {
+          "text":"Штаны2"
+        },
+        {
+          "text":"Штаны3"
+        },
+        {
+          "text":"Штаны4"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "tel": "8939393939",
+    "name": "Shop-wear",
+    "social": [
+      {
+        "src": "vk"
+      },
+      {
+        "src": "inst"
+      },
+      {
+        "src": "tel"
+      },
+      {
+        "src": "f"
+      }
+    ]
+  },
+  "feedback": {
+    "text": "Оставьте свой телефон и мы вам перезвоним!"
   }
 }
